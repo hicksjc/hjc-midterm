@@ -1,6 +1,6 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.css';
-import { Menu, Icon } from 'semantic-ui-react'
+import { Menu, Icon } from 'semantic-ui-css'
 
 const Nav = () => {
     return (
