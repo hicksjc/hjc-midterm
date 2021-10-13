@@ -1,6 +1,6 @@
 import React from 'react';
 import "semantic-ui-css/semantic.css";
-import { Card, Rating, Icon } from 'semantic-ui-css';
+import { Card, Rating, Icon } from 'semantic-ui-react';
 
 import Navbar from '../components/Navbar';
 
@@ -8,7 +8,7 @@ const gamesPage = () => {
     return (
         <React.Fragment>
             <Navbar active='games'/>
-            <Card.Group>
+            <Card.Group width='3'>
                 <Card>
                     <Card.Header>
                         Tic-Tac-Toe

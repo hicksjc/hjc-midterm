@@ -1,6 +1,6 @@
 import React from 'react';
 import "semantic-ui-css/semantic.css";
-import {Containter, Header, Form, Input, TextArea, Button} from 'semantic-ui-css';
+import {Container, Header, Form, Input, TextArea, Button} from 'semantic-ui-react';
 
 import Navbar from '../components/Navbar';
 
@@ -23,7 +23,7 @@ const contactPage = () => {
                         <label>Message</label>
                         <TextArea placeholder='Enter your message...'/>
                     </Form.Field>
-                    <Button>Send Message</Button>
+                    <Button type="button" color="green">Send Message</Button>
                 </Form>
             </Container>
         </React.Fragment>
