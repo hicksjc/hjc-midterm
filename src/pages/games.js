@@ -2,9 +2,12 @@ import React from 'react';
 import "semantic-ui-css/semantic.css";
 import { Card, Rating, Icon } from 'semantic-ui-css';
 
+import Navbar from '../components/Navbar';
+
 const gamesPage = () => {
     return (
         <React.Fragment>
+            <Navbar active='games'/>
             <Card.Group>
                 <Card>
                     <Card.Header>

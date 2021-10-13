@@ -1,8 +1,8 @@
 import React from "react";
 import "semantic-ui-css/semantic.css";
 import { Segment, Header, Form, Button } from "semantic-ui-react";
-//import gamesPage from "./games";
-//import Nav from '../components/nav';
+
+import Navbar from '../components/Navbar';
 
 const HomePage = () => {
   // const [openGamesPage, setGamesPage] = React.useState(false);
@@ -15,6 +15,7 @@ const HomePage = () => {
   // }
   return(
     <React.Fragment>
+      <Navbar active='home'/>
       <Segment>
         <Header as='h2'>Home</Header>
         <Form>

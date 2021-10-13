@@ -2,9 +2,12 @@ import React from 'react';
 import "semantic-ui-css/semantic.css";
 import {Containter, Header, Form, Input, TextArea, Button} from 'semantic-ui-css';
 
+import Navbar from '../components/Navbar';
+
 const contactPage = () => {
     return (
         <React.Fragment>
+            <Navbar active='contact'/>
             <Container>
                 <Header>Contact Us!</Header>
                 <Form>
